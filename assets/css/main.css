@@ -114,6 +114,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 13pt;
+
 			}
 
 		}
@@ -131,6 +132,7 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 				letter-spacing: 0.0375em;
+
 			}
 
 		}
@@ -534,6 +536,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: center;
 			}
 
 				.row > * {
@@ -4404,6 +4407,17 @@ input, select, textarea {
 		text-align: center;
 	}
  
+/*rijani*/
+
+@media screen and  (max-width: 481px){
+	.nepal_image_container{
+	max-width: 100%;
+	}
+
+}
+	
+
+
 /* education page */
 	.education_image_container {
 		position: relative;
@@ -4453,6 +4467,8 @@ input, select, textarea {
 
 	
 }
+
+
 
 
 
